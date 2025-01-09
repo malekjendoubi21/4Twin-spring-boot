@@ -21,6 +21,7 @@ public class ProjetDetail {
     String description;
     String technologie;
     long coud ;
+
     @Temporal(TemporalType.DATE)
     Date dateDebut;
 

@@ -30,7 +30,7 @@ public class ProjetController {
         return projet;
     }
 
-    // http://localhost:8089/exam/projet/add-projet
+    // http://@localhost:8089/exam/projet/add-projet
     @PostMapping("/add-projet")
     public Projet addProjet(@RequestBody Projet c) {
         Projet projet = projetService.addProjet(c);
